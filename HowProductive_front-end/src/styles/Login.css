@@ -7,10 +7,11 @@
 
 body {
   font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
-  background-color: blue;
+  background: linear-gradient(270deg,rgb(0, 0, 179), rgb(162, 162, 255), rgb(221, 221, 255));
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 /* Container principal */
@@ -18,9 +19,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90vw;
+  margin-top: 10px;
   max-width: 1200px;
-  height: 80vh;
+  width: 70vw;
+  height: 500px;
   background-color: #fff;
   border-radius: 50px;
   box-shadow: 10px 10px 15px rgba(51, 51, 51, 0.5);
@@ -140,9 +142,9 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-
   body {
     padding: 20px;
+    background-image: url("https://img.freepik.com/vetores-gratis/design-de-padrao-de-mosaico-geometrico-plano_23-2149280620.jpg?semt=ais_hybrid&w=740&q=80");
   }
 .LoginContainer {
   flex-direction: column;
@@ -166,6 +168,19 @@ button:hover {
   height: 100%;
   gap: 15px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+.LoginContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 80vw;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 10px 10px 15px rgba(51, 51, 51, 0.5);
+  overflow: hidden;
 }
 
 }
