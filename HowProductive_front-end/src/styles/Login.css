@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
-  background: linear-gradient(270deg,rgb(0, 0, 179), rgb(162, 162, 255), rgb(221, 221, 255));
+  background: linear-gradient(270deg, rgb(0, 0, 179), rgb(162, 162, 255), rgb(221, 221, 255));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,8 +94,8 @@ body {
 }
 
 /* Animação do label */
-.formItem input:focus + label,
-.formItem input:valid + label {
+.formItem input:focus+label,
+.formItem input:valid+label {
   top: 0;
   font-size: 12px;
   color: blue;
@@ -153,55 +153,49 @@ button:hover {
 @media (max-width: 768px) {
   body {
     padding: 20px;
-    background-image: url("https://img.freepik.com/vetores-gratis/design-de-padrao-de-mosaico-geometrico-plano_23-2149280620.jpg?semt=ais_hybrid&w=740&q=80");
   }
-.LoginContainer {
-  flex-direction: column;
-  height: 550px;
-}
 
-.LoginImage {
-  width: 100%;
-  height: 10%;
-  background-color: rgb(0, 132, 255);
-  background-image:none ;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+  .LoginImage {
+    width: 100%;
+    height: 15%;
+    background-image: url("https://img.freepik.com/vetores-gratis/design-de-padrao-de-mosaico-geometrico-plano_23-2149280620.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
-.CadastroImage {
-  width: 100%;
-  height: 10%;
-  background-image: none;
-  background-color: rgb(0, 132, 255);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+  .CadastroImage {
+    width: 100%;
+    height: 15%;
+    background-image: url("https://img.freepik.com/vetores-gratis/design-de-padrao-de-mosaico-geometrico-plano_23-2149280620.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
-.LoginForm {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  gap: 15px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
-}
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  }
 
-.LoginContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  width: 80vw;
-  height: 600px;
-  background-color: #fff;
-  border-radius: 50px;
-  box-shadow: 10px 10px 15px rgba(51, 51, 51, 0.5);
-  overflow: hidden;
-}
+  .LoginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 83vw;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px rgba(51, 51, 51, 0.5);
+    overflow: hidden;
+  }
 
 }
