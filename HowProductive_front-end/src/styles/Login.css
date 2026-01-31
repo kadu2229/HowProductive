@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -151,10 +152,6 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  body {
-    padding: 20px;
-  }
-
   .LoginImage {
     width: 100%;
     height: 15%;
@@ -179,7 +176,6 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
     gap: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
   }
