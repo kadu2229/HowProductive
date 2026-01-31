@@ -8,11 +8,6 @@ export const Cadastro = () => {
         <h1>HowProductive</h1>
 
         <div className="formItem">
-          <input type="text" name="name" id="name" required />
-          <label htmlFor="name">Nome</label>
-        </div>
-
-        <div className="formItem">
           <input type="email" name="email" id="email" required />
           <label htmlFor="email">Email</label>
         </div>
@@ -53,7 +48,7 @@ export const Cadastro = () => {
         </div>
       </form>
 
-      <div className="LoginImage"></div>
+      <div className="CadastroImage"></div>
     </div>
   );
 };
