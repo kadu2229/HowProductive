@@ -151,6 +151,19 @@ button:hover {
   background-color: #f5f5f5;
 }
 
+/* Corrige bug visual do autofill no Chrome */
+.formItem input:-webkit-autofill,
+.formItem input:-webkit-autofill:hover,
+.formItem input:-webkit-autofill:focus,
+.formItem input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+  box-shadow: 0 0 0 1000px #fff inset !important;
+  -webkit-text-fill-color: #000 !important;
+  caret-color: #000;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+
 @media (max-width: 768px) {
   .LoginImage {
     width: 100%;
